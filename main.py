@@ -9,7 +9,7 @@ SIZE = (600, 600)
 SPEED = 0.3
 ROTSPEED = 2.5
 
-screen = pg.display.set_mode(SIZE, pg.FULLSCREEN)
+screen = pg.display.set_mode(SIZE)
 gameON = True
 
 w2S = WorldToScreen.WorldToScreen(SIZE)
